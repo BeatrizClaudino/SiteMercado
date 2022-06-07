@@ -1,0 +1,65 @@
+/* Cor do corpo de todas as paginas */
+body{
+    background-color: aliceblue;
+  
+}
+/* Configurações do logotipo */
+nav img{
+    float: left;
+    width: 140px;
+    height: 90px; 
+}
+
+/* Design do cabeçalho */
+ *{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+} 
+
+#menu-horizontal ul{
+    
+    list-style: none;
+    padding: 0;
+    background-color: rgb(199, 49, 49);
+}
+#menu-horizontal ul li{
+    display: inline;
+    margin-left:20px;
+    
+}
+#menu-horizontal ul li a{
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    padding: 32px;
+    display: inline-block;
+    text-decoration: none;
+    transition:cubic-bezier(1, 0, 0, 1);
+    transition: 0.5s ease-out;
+}
+#menu-horizontal ul li a:hover{
+    transition: 0.5s ease-in;
+    color: black;
+    background-color: rgb(243, 167, 167);
+}
+
+#bem-vindo{
+   margin: 80px auto 0px auto;
+   letter-spacing: 1px;
+   line-height: 20px;
+}
+
+.bottom img{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    height: 40px;
+}
+.col-funcionamento{
+    float: left;
+    margin-right: 5px;
+    margin-left: 450px;
+}
+
+
+ 
